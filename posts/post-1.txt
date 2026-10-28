@@ -1,0 +1,74 @@
+Even LeetCode admits it. 💯
+You don't need 500+ questions to learn coding interview patterns.
+
+You need the right 25.
+
+If I had to restart my interview preparation from zero today, these are the questions I'd focus on first:
+
+Arrays / Hashing
+
+1. Two Sum
+2. Product of Array Except Self
+3. Longest Consecutive Sequence
+
+Two Pointers
+
+4. 3Sum
+5. Container With Most Water
+6. Trapping Rain Water
+
+Sliding Window
+
+7. Longest Substring Without Repeating Characters
+8. Longest Repeating Character Replacement
+9. Minimum Window Substring
+
+Binary Search
+
+10. Search in Rotated Sorted Array
+11. Koko Eating Bananas
+12. Find Minimum in Rotated Sorted Array
+
+Linked List
+
+13. Reverse Linked List
+14. Linked List Cycle
+15. Merge Two Sorted Lists
+
+Trees
+
+16. Binary Tree Level Order Traversal
+17. Diameter of Binary Tree
+18. Lowest Common Ancestor of a Binary Tree
+
+Backtracking
+
+19. Subsets
+20. Combination Sum
+
+Dynamic Programming
+
+21. Climbing Stairs
+22. House Robber
+23. Coin Change
+
+Graphs
+
+24. Number of Islands
+25. Course Schedule
+
+These 25 questions cover most of the patterns you'll repeatedly see in interviews:
+
+✅ Hashing
+✅ Two Pointers
+✅ Sliding Window
+✅ Binary Search
+✅ Linked Lists
+✅ Trees
+✅ Backtracking
+✅ Dynamic Programming
+✅ Graphs
+
+Most people don't fail interviews because they aren't smart enough.
+
+They fail because they're solving random questions without understanding the underlying pattern.

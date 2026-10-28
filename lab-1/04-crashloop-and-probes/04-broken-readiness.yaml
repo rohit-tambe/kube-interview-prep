@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: broken-readiness-demo
+  namespace: practice
+  labels:
+    app: broken-readiness
+spec:
+  containers:
+  - name: web
+    image: nginx:1.25
+    ports:
+    - containerPort: 80
+    readinessProbe:
+      httpGet:
+        path: /non-existent-ready-check
+        port: 80
+      initialDelaySeconds: 2
+      periodSeconds: 3
+      failureThreshold: 2

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: oomkilled-demo
+  namespace: practice
+  labels:
+    app: oomkilled-demo
+spec:
+  containers:
+  - name: mem-consumer
+    image: busybox:1.36
+    command: ["sh", "-c", "echo 'Leaking heap memory in process...'; x='abcdefghij'; while true; do x=\"$x$x$x$x\"; done"]
+    resources:
+      requests:
+        memory: "64Mi"
+      limits:
+        memory: "256Mi"

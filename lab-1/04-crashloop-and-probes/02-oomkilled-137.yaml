@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: oomkilled-demo
+  namespace: practice
+  labels:
+    app: oomkilled-demo
+spec:
+  containers:
+  - name: mem-consumer
+    image: busybox:1.36
+    command: ["sh", "-c", "echo 'Allocating memory beyond limit...'; dd if=/dev/zero of=/dev/shm/fill bs=1M count=100; sleep 3600"]
+    resources:
+      requests:
+        memory: "16Mi"
+      limits:
+        memory: "32Mi"

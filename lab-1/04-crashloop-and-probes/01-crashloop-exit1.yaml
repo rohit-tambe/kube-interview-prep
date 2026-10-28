@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crashloop-demo
+  namespace: practice
+  labels:
+    app: crashloop-demo
+spec:
+  containers:
+  - name: app
+    image: busybox:1.36
+    command: ["sh", "-c", "echo 'Starting payment engine...'; sleep 3; echo 'Fatal error: database config missing!'; exit 1"]

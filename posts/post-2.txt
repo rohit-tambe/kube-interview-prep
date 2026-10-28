@@ -1,0 +1,87 @@
+Most people learn System Design by memorising architectures.
+
+That’s why they struggle when the interviewer changes the problem.
+
+Instead, learn these 12 algorithms/concepts and understand where each one fits 👇
+
+1. Consistent Hashing
+   → Distribute data across servers
+   → Useful for distributed caches & databases
+
+2. Rendezvous Hashing
+   → Select the best server/node for a key
+   → Useful for load distribution
+
+3. Rate Limiting Algorithms
+   → Token Bucket
+   → Leaky Bucket
+   → Fixed Window
+   → Sliding Window
+
+4. LRU Cache
+   → Evict least recently used data
+   → Important for caching systems
+
+5. Bloom Filter
+   → Quickly check whether an item may exist
+   → Useful for reducing unnecessary database lookups
+
+6. Count-Min Sketch
+   → Approximate frequency/count of events
+   → Useful for high-volume analytics
+
+7. Leader Election
+   → Choose one node as the coordinator
+   → Important in distributed systems
+
+8. Consensus Algorithms
+   → Raft
+   → Paxos
+   → Help distributed nodes agree on a state
+
+9. Gossip Protocol
+   → Nodes exchange information with each other
+   → Useful for service discovery and cluster membership
+
+10. Merkle Tree
+    → Efficiently compare large datasets
+    → Used in distributed storage and replication
+
+11. MapReduce
+    → Split a large computation into smaller tasks
+    → Process them in parallel
+    → Combine the results
+
+12. Top-K / Heavy Hitters
+    → Find the most frequent items from huge datasets
+    → Useful for trending searches, recommendations and analytics
+
+A simple System Design learning roadmap:
+
+Algorithms
+↓
+Data Structures
+↓
+Caching
+↓
+Load Balancing
+↓
+Databases
+↓
+Distributed Systems
+↓
+Queues & Streaming
+↓
+Scalability
+↓
+Fault Tolerance
+↓
+Complete System Design
+
+Don't just learn what each algorithm does.
+
+Learn:
+→ What problem does it solve?
+→ Why is it needed?
+→ What are its trade-offs?
+→ Where would you use it in a real system?

@@ -1,0 +1,31 @@
+Google is paying ₹65-80 LPA for engineers who can answer these. Most candidates with 4 years of experience can't.
+
+𝗕𝗔𝗖𝗞𝗘𝗡𝗗:
+1. A query on a 2-billion-row Postgres table took 80 ms. After a routine deploy it takes 14 seconds. What do you check first?
+
+2. Your Redis hit rate is 92%. In a flash sale it falls to 31% within 40 seconds, and the DB takes 60k QPS it was never built for. What happened?
+
+3. Payment succeeds, then the inventory service times out. You don't know if it committed. How do you settle it without 2PC?
+
+4. At 80k events a second you see duplicate event IDs, and the team blames UUID v4 collisions. Are they right?
+
+5. You add one index to a busy Postgres table. Writes drop 40% for 6 minutes, with no errors in the logs. What happened?
+
+6. Your gRPC service has a p50 of 42 ms and a p99 of 1.8 seconds. CPU and memory look fine. What do you test first?
+
+𝗦𝗬𝗦𝗧𝗘𝗠 𝗗𝗘𝗦𝗜𝗚𝗡:
+7. Google Maps routing: traffic changes every 30 seconds across 50 million road segments. How do you keep shortest paths fresh?
+
+8. YouTube shows "1.2M views" and doesn't update on every view. How do you count billions of plays a day?
+
+9. Search autocomplete in under 100 ms worldwide. A query starts trending in one region. How do suggestions catch up?
+
+10. Google Drive: two users edit the same file offline and reconnect together. How do you merge without losing data?
+
+11. Gmail search for 1.8 billion users, where no two users share an index. How do you make it feel instant?
+
+12. Google Meet at 100k concurrent calls. A user's bandwidth drops mid-call. How do you lower quality without dropping the call?
+
+All 12 answered in the comments.
+
+𝗞𝗲𝗲𝗽𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗶𝗻 𝗺𝗶𝗻𝗱, 𝗜 𝘄𝗲𝗻𝘁 𝗱𝗲𝗲𝗽 𝗮𝗻𝗱 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗲𝗱 𝗲𝘃𝗲𝗿𝘆𝘁𝗵𝗶𝗻𝗴 𝗶𝗻𝘁𝗼 𝗮 𝗝𝗮𝘃𝗮 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗚𝘂𝗶𝗱𝗲.

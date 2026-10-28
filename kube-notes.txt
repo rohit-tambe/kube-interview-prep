@@ -1,0 +1,16 @@
+𝗧𝗼𝗽𝗶𝗰𝘀 𝗖𝗼𝘃𝗲𝗿𝗲𝗱
+1. Kubernetes Fundamentals
+2. Kubernetes Architecture & Core Components
+3. Pods, ReplicaSets & Deployments
+4. Rolling Updates & Rollbacks
+5. Services & Ingress
+6. Namespaces, Labels & Selectors
+7. ConfigMaps & Secrets
+8. Volumes, PV, PVC & StorageClass
+9. StatefulSets, DaemonSets, Jobs & CronJobs
+10. Scheduling, Affinity, Taints & Tolerations
+11. Security — RBAC, Service Accounts & Network Policies
+12. Essential kubectl Commands & End-to-End Deployment Workflow
+
+𝗠𝘆 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵
+Understand the concepts, practise YAML manifests, troubleshoot real-world scenarios, and apply the knowledge through hands-on projects.
